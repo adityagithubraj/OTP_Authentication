@@ -100,60 +100,15 @@ Things to do before starting the server:-
 
 ## Endpoints
 
-<table>
-    <thead>
-        <tr>
-            <th>METHOD</th>
-            <th>ENDPOINT</th>
-            <th>DESCRIPTION</th>
-            <th>STATUS CODE</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>POST</td>
-            <td>/api/register</td>
-            <td>This endpoint should allow users to register</td>
-            <td>201</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/api/verify</td>
-            <td>This endpoint should allow verification of OTP</td>
-            <td>200</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/api/login</td>
-            <td>This endpoint should allow users to login</td>
-            <td>200</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/api/logout</td>
-            <td>This endpoint is used to logout</td>
-            <td>201</td>
-        </tr>
-        <tr>
-            <td>PATCH</td>
-            <td>/api/reset</td>
-            <td>This endpoint is used to reset</td>
-            <td>200</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/api/customers</td>
-            <td>This endpoint is used to find customers of authorized user if a valid token is present in headers (authorization)</td>
-            <td>200</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/api/customers</td>
-            <td>This endpoint is used to create a customer</td>
-            <td>200</td>
-        </tr>
-    </tbody>
-</table>
+| METHOD | ENDPOINT         | DESCRIPTION                                        | STATUS CODE |
+|--------|------------------|----------------------------------------------------|-------------|
+| POST   | /api/register    | Allow users to register                            | 201         |
+| POST   | /api/verify      | Allow verification of OTP                          | 200         |
+| POST   | /api/login       | Allow users to log in                              | 200         |
+| POST   | /api/logout      | Used to log out                                    | 201         |
+| PATCH  | /api/reset       | Used to reset password                             | 200         |
+| GET    | /api/customers   | Find customers of the authorized user (valid token)| 200         |
+| POST   | /api/customers   | Create a new customer                              | 201         |
 
 
 <br>
