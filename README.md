@@ -116,16 +116,16 @@ Things to do before starting the server:-
             <td>This endpoint should allow users to register</td>
             <td>201</td>
         </tr>
-<tr>
+        <tr>
             <td>POST</td>
             <td>/api/verify</td>
-            <td>This endpoint should allow verify otp.</td>
+            <td>This endpoint should allow verification of OTP</td>
             <td>200</td>
         </tr>
         <tr>
             <td>POST</td>
             <td>/api/login</td>
-            <td>This endpoint should allow users to login.</td>
+            <td>This endpoint should allow users to login</td>
             <td>200</td>
         </tr>
         <tr>
@@ -134,26 +134,24 @@ Things to do before starting the server:-
             <td>This endpoint is used to logout</td>
             <td>201</td>
         </tr>
-         <tr>
+        <tr>
             <td>PATCH</td>
             <td>/api/reset</td>
             <td>This endpoint is used to reset</td>
             <td>200</td>
         </tr>
-         <tr>
+        <tr>
             <td>GET</td>
             <td>/api/customers</td>
-            <td>This endpoint is used to find customers of authorized user if valid token present in headers authorization </td>
-            <td>201</td>
+            <td>This endpoint is used to find customers of authorized user if a valid token is present in headers (authorization)</td>
+            <td>200</td>
         </tr>
         <tr>
             <td>POST</td>
             <td>/api/customers</td>
-            <td>This endpoint is used create customer </td>
+            <td>This endpoint is used to create a customer</td>
             <td>200</td>
         </tr>
-         <
-        
     </tbody>
 </table>
 
