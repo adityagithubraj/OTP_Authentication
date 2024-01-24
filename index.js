@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 
 app.get("/" , (req,res)=>{
-    res.send("OTP ayth api")
+    res.send("Welcome to the OTP verification API!")
 })
 
 //...............Use authRouter.........//
