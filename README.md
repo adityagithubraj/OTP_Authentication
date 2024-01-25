@@ -2,11 +2,9 @@
 
 
 
-## Deployed link
-
+## Deployed link:-https://coffee-octopus-belt.cyclic.app/
 <br>
-https://coffee-octopus-belt.cyclic.app/
-<br>
+## Video link :-https://drive.google.com/file/d/1Lpl8cFma4iuCxST8Yta2VvMpKE1zxgHo/view?usp=sharing
 
 ## Installation
 
@@ -83,7 +81,7 @@ Things to do before starting the server:-
 ```
 
 
-<h3><strong>Schema for creating/customer  Todo</strong><h3>
+<h3><strong>Schema for creating/customer </strong><h3>
 
 ```js
 {
