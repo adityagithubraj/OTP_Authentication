@@ -19,7 +19,7 @@ userRouter.post("/register", async (req, res) => {
   let { username, email, password } = req.body;
 
   const otp = Math.floor(1000 + Math.random() * 9000);
-  //console.log(otp);
+console.log(otp);
 
   try {
     let userData = await UserModel.findOne({ email: email });
@@ -74,7 +74,6 @@ userRouter.post("/register", async (req, res) => {
     res.status(500).json({ error: `Something went wrong: ${error.message}` });
   }
 });
-
 //......................verify otp.......................//
 userRouter.post("/verify", async (req, res) => {
     let { OTP } = req.body;
@@ -140,6 +139,7 @@ userRouter.post("/logout", authentication, async (req, res) => {
     res.status(200).send({ msg: "Logout Successfully" });
   } catch (error) {
     console.error(error);
+    
     res.status(500).json({ error: `Something went wrong: ${error.message}` });
   }
 });
